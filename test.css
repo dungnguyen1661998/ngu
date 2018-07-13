@@ -1,39 +1,259 @@
-/*
-Error: Invalid mixin "======".
-        on line 41 of C:\Users\MSI\Desktop\2 thang ngu\ngu2\ngu\test.sass
+.khung {
+  width: 100%;
+  height: auto;
+  background: red;
+  float: left; }
+  .khung .vung2 {
+    float: left;
+    width: 100%;
+    height: auto; }
+    .khung .vung2 .box21 {
+      float: left;
+      width: 70%;
+      height: 600px;
+      background: pink; }
+      .khung .vung2 .box21 .box211 {
+        float: left;
+        width: 100%;
+        height: 10%;
+        background: green; }
+        .khung .vung2 .box21 .box211 p {
+          color: #fff;
+          line-height: 40px; }
+      .khung .vung2 .box21 .box212 {
+        float: left;
+        width: 33%;
+        height: 45%;
+        background: blue; }
+        .khung .vung2 .box21 .box212 img {
+          float: left;
+          width: 80%;
+          height: 70%; }
+        .khung .vung2 .box21 .box212 p {
+          float: left;
+          display: block;
+          width: 100%;
+          color: #fff; }
+    .khung .vung2 #box3 {
+      height: 980px;
+      width: 25%;
+      float: right;
+      background: white; }
+      .khung .vung2 #box3 #box31 {
+        height: 200px;
+        width: 98%;
+        float: left;
+        border-radius: 10px 10px 10px 10px;
+        border: 2px solid #888888;
+        background: white; }
+        .khung .vung2 #box3 #box31 #tieude {
+          height: 50px;
+          width: 96%;
+          float: left;
+          margin-top: 5px;
+          margin-left: 2%;
+          border-radius: 8px 8px 0px 0px;
+          background: green; }
+        .khung .vung2 #box3 #box31 h2 {
+          text-align: left;
+          color: white;
+          font-size: 17px;
+          margin-top: 15px;
+          margin-left: 15px; }
+        .khung .vung2 #box3 #box31 #menu {
+          height: 140px;
+          width: 96%;
+          float: left;
+          margin: 0;
+          margin-left: 2%; }
+          .khung .vung2 #box3 #box31 #menu ul {
+            width: 100%;
+            height: 95%;
+            margin: 0;
+            padding: 3px;
+            float: left;
+            list-style-type: none;
+            text-align: left; }
+          .khung .vung2 #box3 #box31 #menu li {
+            margin: 0;
+            float: left;
+            width: 100%;
+            height: 23%; }
+          .khung .vung2 #box3 #box31 #menu a {
+            margin: 0;
+            padding-top: 10px;
+            margin-left: 10px;
+            text-decoration: none;
+            text-align: center;
+            color: #888888;
+            font-size: 15px; }
+            .khung .vung2 #box3 #box31 #menu a:hover {
+              color: black; }
+          .khung .vung2 #box3 #box31 #menu hr {
+            margin: 0;
+            float: left;
+            height: 1px; }
+    .khung .vung2 #box32 {
+      height: 250px;
+      width: 98%;
+      float: left;
+      margin-top: 20px;
+      border-radius: 10px 10px 10px 10px;
+      border: 2px solid #888888;
+      background: white; }
+      .khung .vung2 #box32 #tieude {
+        height: 50px;
+        width: 96%;
+        float: left;
+        margin-top: 5px;
+        margin-left: 2%;
+        border-radius: 8px 8px 0px 0px;
+        background: green; }
+        .khung .vung2 #box32 #tieude h2 {
+          font-size: 17px;
+          text-align: center;
+          color: white;
+          margin-top: 15px; }
+      .khung .vung2 #box32 #hinh {
+        height: 190px;
+        width: 96%;
+        float: left;
+        margin: 0;
+        margin-left: 2%; }
+        .khung .vung2 #box32 #hinh img {
+          margin-left: 7px;
+          margin-top: 15px; }
+        .khung .vung2 #box32 #hinh h4 {
+          margin: 0;
+          margin-left: 10px;
+          font-size: 18px;
+          color: black; }
+        .khung .vung2 #box32 #hinh hr {
+          margin-top: 8px;
+          height: 0.5px; }
+    .khung .vung2 #box33 {
+      height: 230px;
+      width: 98%;
+      float: left;
+      margin-top: 20px;
+      border-radius: 10px 10px 10px 10px;
+      border: 2px solid #888888;
+      background: white; }
+      .khung .vung2 #box33 #tieude {
+        height: 50px;
+        width: 96%;
+        float: left;
+        margin-top: 5px;
+        margin-left: 2%;
+        border-radius: 8px 8px 0px 0px;
+        background: green; }
+        .khung .vung2 #box33 #tieude h2 {
+          font-size: 17px;
+          text-align: left;
+          color: white;
+          margin-top: 15px;
+          margin-left: 15px; }
+      .khung .vung2 #box33 #video {
+        height: 150px;
+        width: 96%;
+        float: left;
+        margin-top: 10px;
+        margin-left: 2%;
+        background: pink; }
+        .khung .vung2 #box33 #video iframe {
+          width: 100%;
+          height: 100%; }
+    .khung .vung2 #box34 {
+      height: 200px;
+      width: 98%;
+      float: left;
+      margin-top: 20px;
+      border-radius: 10px 10px 10px 10px;
+      border: 2px solid #888888;
+      background: white; }
+      .khung .vung2 #box34 #tieude {
+        height: 50px;
+        width: 96%;
+        float: left;
+        margin-top: 5px;
+        margin-left: 2%;
+        border-radius: 8px 8px 0px 0px;
+        background: green; }
+      .khung .vung2 #box34 h2 {
+        text-align: left;
+        color: white;
+        font-size: 17px;
+        margin-top: 15px;
+        margin-left: 15px; }
+      .khung .vung2 #box34 #hinh {
+        height: 120px;
+        width: 96%;
+        float: left;
+        margin-top: 4%;
+        margin-left: 2%; }
+        .khung .vung2 #box34 #hinh img {
+          width: 100%;
+          height: 100%; }
+  .khung .box1 {
+    float: left;
+    width: 100%;
+    height: 130px;
+    background: #121; }
+    .khung .box1 .b1 {
+      float: left;
+      width: 100%;
+      height: 80px;
+      background: #fff; }
+      .khung .box1 .b1 img {
+        float: left;
+        width: 10%;
+        height: 100%;
+        margin-right: 70%; }
+      .khung .box1 .b1 .v1 {
+        float: left;
+        width: 10%;
+        height: 100%; }
+        .khung .box1 .b1 .v1 .k1 {
+          float: left;
+          width: 30%;
+          height: 80%;
+          margin-top: 5%;
+          background: red; }
+          .khung .box1 .b1 .v1 .k1 img {
+            width: 100%;
+            height: 100%; }
+        .khung .box1 .b1 .v1 .k2 {
+          float: left;
+          width: 70%;
+          height: 100%;
+          background: #fff; }
+          .khung .box1 .b1 .v1 .k2 p {
+            padding-left: 10px;
+            display: block; }
+  .khung .box2 {
+    float: left;
+    width: 100%;
+    height: 50px;
+    background: pink; }
+    .khung .box2 ul {
+      padding: 0;
+      margin: 0; }
+      .khung .box2 ul li {
+        list-style: none; }
+        .khung .box2 ul li a {
+          float: left;
+          display: block;
+          height: 100%;
+          width: 14.14%;
+          font-size: 20px;
+          color: #000;
+          text-align: center;
+          line-height: 50px;
+          text-decoration: none;
+          background: #01DF3A;
+          border: 1px solid #000; }
+          .khung .box2 ul li a:hover {
+            background: #0B610B;
+            color: red; }
 
-36: 				p 
-37: 					float: left
-38: 					display: block
-39: 					width: 100%
-40: 					color: #fff
-41: =======
-42: 		#box3 
-43: 		height: 980px
-44: 		width: 25%
-45: 		float: right
-46: 		background: white
-
-Backtrace:
-C:\Users\MSI\Desktop\2 thang ngu\ngu2\ngu\test.sass:41
-E:/koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:1127:in `parse_mixin_definition'
-E:/koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:659:in `parse_line'
-E:/koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:540:in `build_tree'
-E:/koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:559:in `block in append_children'
-E:/koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:558:in `each'
-E:/koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:558:in `append_children'
-E:/koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:417:in `_to_tree'
-E:/koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
-E:/koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
-E:/koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
-E:/koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
-E:/koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
-E:/koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
-E:/koala/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
-E:/koala/bin/sass:22:in `load'
-E:/koala/bin/sass:22:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid mixin \"======\".\A         on line 41 of C:\Users\MSI\Desktop\2 thang ngu\ngu2\ngu\test.sass\A \A 36: 				p \A 37: 					float: left\A 38: 					display: block\A 39: 					width: 100%\A 40: 					color: #fff\A 41: =======\A 42: 		#box3 \A 43: 		height: 980px\A 44: 		width: 25%\A 45: 		float: right\A 46: 		background: white"; }
+/*# sourceMappingURL=test.css.map */
